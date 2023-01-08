@@ -1,0 +1,141 @@
+#BodyDefault {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#ProjectDescription, #ProjectDescriptionWithoutImage {
+  font-family: Lato light;
+  margin-right: 0px;
+}
+
+#ProjectTitle, #ProjectDescriptionWithoutImage, #ProjectDetail, #ProjectDescription, #SoftwareSub, #ProjectTitleMedium {
+  margin-left: 2vh;
+}
+
+#ProjectDetail, #ProjectDescription, #SoftwareSub, #ProjectDescriptionWithoutImage {
+  font-size: 18px;
+}
+
+#ProjectTitle {
+  font-size: 40px;
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+  #ProjectTitle {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+  #ProjectDetail, #ProjectDescription, #SoftwareSub, #ProjectDescriptionWithoutImage {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:991px) {
+  #ProjectDetail, #ProjectDescription, #SoftwareSub, #ProjectDescriptionWithoutImage {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 760px) and (max-width:992px) {
+  #ProjectTitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 760px) {
+  #TitleImage {
+    margin-top: 2vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:1399px) {
+  #ProjectDescription, #ProjectDescriptionWithoutImage {
+    min-height: 5vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  #ProjectDescription {
+    min-height: 20vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  #ProjectDetail {
+    min-height: 10vh;
+  }
+}
+
+@media (min-width: 1400px) {
+  #ProjectTitle {
+    min-height: 5vh;
+  }
+}
+
+@media (min-width: 500px) {
+  #TwoRowImage {
+    margin-right: 5vh;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+
+#TwoRow {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  #OneRowImage {
+    margin-right: 5vh;
+    margin-left: 5vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #ProjectTitle {
+    min-height: 1vh;
+  }
+}
+
+#CenterAlign {
+}
+
+#ImageTitle {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+@media (min-width: 992px) {
+  #OneRowImageSmall {
+    margin-right: 30vh;
+    margin-left: 30vh;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 992px) and (min-width:360px) {
+  #OneRowImageSmall {
+    margin-right: 10vh;
+    margin-left: 10vh;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width:360px) {
+  #OneRowImageSmall {
+    margin-right: 0vh;
+    margin-left: 0vh;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  #footerrow {
+    margin-right: 30vh;
+    margin-left: 30vh;
+  }
+}
+
