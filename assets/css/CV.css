@@ -1,25 +1,18 @@
-#CVImage {
-  width: 100%;
-  margin-top: 3vh;
-}
-
-@media (min-width: 1200px) {
-  #rowsize {
-    margin-right: 20vh;
-    margin-left: 20vh;
-    margin-top: 5vh;
+@media (min-width: 768px) {
+  #RowSize {
+    margin-right: 10vh;
+    margin-left: 10vh;
   }
 }
 
-@media (min-width: 300px) and ( max-width:991px) {
-  #textsize {
-    font-size: 15px;
+@media (min-width: 768px) {
+  #RowSize {
+    margin-right: 10vh;
+    margin-left: 10vh;
   }
 }
 
-@media (min-width: 992px) {
-  #textsize {
-    font-size: 30px;
-  }
+#RowSize {
+  margin-top: 5vh;
 }
 

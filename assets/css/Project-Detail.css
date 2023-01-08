@@ -99,43 +99,23 @@
   }
 }
 
-#CenterAlign {
-}
-
 #ImageTitle {
   font-size: 18px;
   font-weight: bold;
   padding-top: 20px;
 }
 
-@media (min-width: 992px) {
-  #OneRowImageSmall {
+@media (min-width: 1200px) {
+  #SignRow {
     margin-right: 30vh;
     margin-left: 30vh;
-    margin-top: 10px;
   }
 }
 
-@media (max-width: 992px) and (min-width:360px) {
-  #OneRowImageSmall {
-    margin-right: 10vh;
-    margin-left: 10vh;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width:360px) {
-  #OneRowImageSmall {
-    margin-right: 0vh;
-    margin-left: 0vh;
-    margin-top: 10px;
-  }
-}
-
-@media (min-width: 992px) {
-  #footerrow {
-    margin-right: 30vh;
-    margin-left: 30vh;
+@media (max-width: 1199px) and (min-width:700px) {
+  #SignRow {
+    margin-right: 20vh;
+    margin-left: 20vh;
   }
 }
 

@@ -37,14 +37,13 @@ body {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 400px) {
   #navcol-1 {
     margin-top: 5vh;
   }
 }
 
-#invert {
-  color: #ffffff;
-  border-color: #000000;
+#ProjectDescription {
+  margin-top: 10px;
 }
 
