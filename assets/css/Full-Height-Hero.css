@@ -25,7 +25,7 @@
 @media ( min-width: 1000px) {
   #hero {
     height: 87vh;
-    margin-top: -10vh;
+    margin-top: 10vh;
     background-blend-mode: initial;
     background: url("../../assets/img/Hero%20Image.jpg") center / cover no-repeat, rgba(0,0,0,0);
   }
